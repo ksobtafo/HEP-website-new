@@ -17,3 +17,4 @@ Make sure to include both style.scss and util.js files of the framework.
 ## Credits
 
 Icons: [Nucleo Library](https://nucleoapp.com/)
+Self: Karen Sobtafo
