@@ -1,6 +1,6 @@
-# Add to Cart Interaction
+# HEP website for use of Larry Ham Physical Therapy
 
-A floating cart component that reveals itself when the user adds an item to the cart.
+body parts navigation bars with a floating cart component that reveals itself when the user adds an HEP to the cart.
 
 [Article on CodyHouse](https://codyhouse.co/gem/add-to-cart-interaction)
 
