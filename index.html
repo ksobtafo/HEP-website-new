@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"> <!-- icons library-->
+
+
+
+
+  <a href ="index.html"><img src="LHPTlogo.png" alt="Larry Ham Physical therapy logo" width="166" height="60"></a>
+
+  <!-- create tabs for each body part -->
+	  <nav role ="navigation">
+		  <ul>
+			  <li> <a href =" #" onclick="filterSelection('all')"> All </a>  </li>
+
+
+			  <!-- TODO: make sure when ankle and foot is clikced 'all' of those is displayed -->
+			  <li> <a href ="#" > Ankle and Foot</a>
+				  <ul class ="dropdown">
+					  <li> <a href= "#" onclick="filterSelection('Link1')"> Link1</a></li> <!-- link this to filterselection link 1-->
+					  <li> <a href ="#" onclick="filterSelection('Link2')"> Link2 </a></li>
+					  <li> <a href ="#"onclick="filterSelection('Link3')"> Link3</a></li>
+				  </ul>
+			  </li>
+
+
+			  <li> <a href =""> Cervical </a>
+				  <ul class ="dropdown">
+					  <li> <a href="#" onclick="filterSelection('Link4')"> Link4</a></li>
+					  <li> <a href="#" onclick="filterSelection('Link5')"> Link5</a></li>
+					  <li> <a href="#" onclick="filterSelection('Link6')"> Link6 </a></li>
+				  </ul>
+			  </li>
+
+			  <li> <a href =" "> Education</a>
+				  <ul class = "dropdown">
+				  <li> <a href ="#"> Link7</a></li>
+				  <li> <a href ="#"> Link8</a></li>
+				  <li> <a href ="#"> Link9 </a></li>
+				  </ul>
+			  </li>
+
+			  <li> <a href =" "> Elbow and Hand</a>
+				  <ul class ="dropdown">
+					  <li> <a href = "#"> Link10</a></li>
+					  <li> <a href = "#"> Link11</a></li>
+					  <li> <a href = "#"> Link12 </a></li>
+				  </ul>
+			  </li>
+
+
+			  <li> <a href =" "> Hip and Knee</a>
+				  <ul class ="dropdown">
+					  <li> <a href ="#"> Link13</a></li>
+					  <li> <a href ="#"> Link14</a></li>
+					  <li> <a href ="#"> Link15</a></li>
+				  </ul>
+			  </li>
+
+			  <li> <a href =" "> Lumbar Thorasic</a>
+				  <ul class ="dropdown">
+					  <li> <a href ="#"> Link16</a></li>
+					  <li> <a href ="#"> Link17</a></li>
+					  <li> <a href = "#"> Link18</a></li>
+				  </ul>
+			  </li>
+
+			  <li> <a href =" "> Shoulder</a>
+				  <ul class ="dropdown">
+					  <li> <a href ="#"> Link19</a></li>
+					  <li> <a href ="#"> Link20</a></li>
+					  <li> <a href ="#"> Link21</a></li>
+				  </ul>
+			  </li>
+
+			  <li> <a href =" "> Special</a>
+				  <ul class ="dropdown">
+					  <li> <a href ="#"> Link22</a></li>
+					  <li> <a href ="#"> Link23</a></li>
+					  <li> <a href ="#"> Link24</a></li>
+				  </ul>
+			  </li>
+		  </ul>
+	 </nav>
+<!--------------------------------------------------------------------------------------------------------------------->
+	 <!--search tab; keep right CSS-->
+
+	 <!-- TODO: Set function for search button, give it an action(js?)-->
+	 <div class = "searchbarMain">
+	  <form class ="searchbar" GET=" " method ="GET"> <!-- what should the action be ??-->
+		 <!--  <label for ="search"> Search</label>  -->
+		 <button type = "submit"> <i class="fa fa-search"></i></button>  <!-- search icon-->
+		  <input id="search" onkeyup="Searchbarfunc()" placeholder ="Search HEP keyword...."type="text" name= "search">
+			  <br>
+		  </input>
+	  </form>
+  </div>
+
+  </head>
+
+<!--------------------------------------------------------------------------------------------------------------------->
+
+
+  <!-- main webpage with Ankle and Foot HEPs displayed -->
+  <!--TODO: adjust text so that i iw withing grid !! i think CSS -->
+  <div class ="row">
+	  <div class="column Link1">
+		  <div class ="content">
+			  <a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+				   <img src ="AnkleFootImg/placeholder1.jpeg" alt = "beyonce" style = "width: 100%">
+			  </a>
+				  <p> Image description1...</p>
+			  
+			  <div class ="middle">
+				  <div class = "description"> This is a description of the HEP  </div>
+			  </div>
+		  </div>
+	  </div>
+
+		  <div class="column Link1">
+			  <div class ="content">
+				<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+				  <img src ="AnkleFootImg/placeholder1.jpeg" alt = "beyonce" style = "width: 100%">
+				</a>
+				  <p> Image ...</p>
+
+			  </div>
+		  </div>
+
+			  <div class="column Link1">
+				  <div class ="content">
+					<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+					  <img src ="AnkleFootImg/placeholder1.jpeg" alt = "beyonce" style = "width: 100%">
+					</a>
+					  <p>  Image description n  </p>
+
+				  </div>
+			  </div>
+
+	  <div class ="column Link2">
+		  <div class="content">
+			<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+			  <img src ="AnkleFootImg/placeholder2.jpg" alt = "beyonce" style = "width: 100%">
+			</a>
+			  <p> Image description3...</p>
+
+		  </div>
+	  </div>
+
+	  <div class ="column Link2">
+		  <div class="content">
+			<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+			  <img src ="AnkleFootImg/placeholder2.jpg" alt = "beyonce" style = "width: 100%">
+			</a>
+			  <p> Image description4...</p>
+
+		  </div>
+	  </div>
+
+	  <div class ="column Link3">
+		  <div class="content">
+			<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+			  <img src ="AnkleFootImg/placeholder3.jpg" alt = "beyonce" style = "width: 100%">
+			</a>
+			  <p> Image description5...</p>
+		  </div>
+	  </div>
+  <!-- main webpage with Cervical displayed -->
+  <div class="column Link4">
+	  <div class ="content">
+		<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+		  <img src ="AnkleFootImg/placeholder1.jpeg" alt = "beyonce" style = "width: 100%">
+		</a>
+		  <p> Image description1...</p>
+		  <div class ="middle">
+			  <div class = "description"> This is a description of the HEP  </div>
+		  </div>
+	  </div>
+  </div>
+
+	  <div class="column Link4">
+		  <div class ="content">
+			<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+			  <img src ="AnkleFootImg/placeholder1.jpeg" alt = "beyonce" style = "width: 100%">
+			</a>
+			  <p> Image ...</p>
+
+		  </div>
+	  </div>
+
+		  <div class="column Link4">
+			  <div class ="content">
+				<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+				  <img src ="AnkleFootImg/placeholder1.jpeg" alt = "beyonce" style = "width: 100%">
+				</a>
+				  <p>  Image description not too long.. </p>
+
+			  </div>
+		  </div>
+
+  <div class ="column Link5">
+	  <div class="content">
+		<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+		  <img src ="AnkleFootImg/placeholder2.jpg" alt = "beyonce" style = "width: 100%">
+		</a>
+		  <p> Image description3...</p>
+
+	  </div>
+  </div>
+
+  <div class ="column Link5">
+	  <div class="content">
+		<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+		  <img src ="AnkleFootImg/placeholder2.jpg" alt = "beyonce" style = "width: 100%">
+		</a>
+		  <p> Image description4...</p>
+
+
+	  </div>
+  </div>
+
+  <div class ="column Link6">
+	  <div class="content">
+		<a href ="#" class="cd-add-to-cart js-cd-add-to-cart">
+		  <img src ="AnkleFootImg/placeholder3.jpg" alt = "beyonce" style = "width: 100%">
+		</a>
+		  <p> Image description5...</p>
+	  </div>
+  </div>
+
+  </div>
+<!--------------------------------------------------------------------------------------------------------------------->
+
+
+</head>
+<body>
+<main class="cd-main container margin-top-xxl">
+  <div class="text-component text-center">
+    <p class="flex flex-wrap flex-center flex-gap-xxs">
+      <a href="#0" class="cd-add-to-cart js-cd-add-to-cart" >Add HEP</a>
+    </p>
+  </div>
+</main>
+
+<div class="cd-cart cd-cart--empty js-cd-cart">
+	<a href="#0" class="cd-cart__trigger text-replace">
+		Cart
+		<ul class="cd-cart__count"> <!-- cart items count -->
+			<li>0</li>
+			<li>0</li>
+		</ul> <!-- .cd-cart__count -->
+	</a>
+
+	<div class="cd-cart__content">
+		<div class="cd-cart__layout">
+			<header class="cd-cart__header">
+				<h2>Cart</h2>
+				<span class="cd-cart__undo">Item removed. <a href="#0">Undo</a></span>
+			</header>
+
+			<div class="cd-cart__body">
+				<ul>
+					<!-- products added to the cart will be inserted here using JavaScript -->
+				</ul>
+			</div>
+
+			<footer class="cd-cart__footer">
+				<a href="#0" class="cd-cart__checkout">
+          <em>Print<span>0</span>
+            <svg class="icon icon--sm" viewBox="0 0 24 24"><g fill="none" stroke="currentColor"><line stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x1="3" y1="12" x2="21" y2="12"/><polyline stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="15,6 21,12 15,18 "/></g>
+            </svg>
+          </em>
+        </a>
+			</footer>
+		</div>
+	</div> <!-- .cd-cart__content -->
+</div> <!-- cd-cart -->
+<script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="assets/js/main.js"></script>
+</body>
+</html>
