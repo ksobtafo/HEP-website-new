@@ -12,7 +12,6 @@ body parts navigation bars with a floating cart component that reveals itself wh
 
 This experiment is built upon the [CodyHouse Framework](https://github.com/CodyHouse/codyhouse-framework).
 
-Make sure to include both style.scss and util.js files of the framework.
 
 ## Credits
 
