@@ -4,8 +4,6 @@ body parts navigation bars with a floating cart component that reveals itself wh
 
 [Article on CodyHouse](https://codyhouse.co/gem/add-to-cart-interaction)
 
-[Demo](https://codyhouse.co/demo/add-to-cart-interaction)
-
 [License](https://codyhouse.co/license)
 
 ## Dependencies
