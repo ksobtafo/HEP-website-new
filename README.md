@@ -12,6 +12,9 @@ This experiment is built upon the [CodyHouse Framework](https://github.com/CodyH
 ## Credits
 
 Icons: [Nucleo Library](https://nucleoapp.com/)
+
 [Article on CodyHouse](https://codyhouse.co/gem/add-to-cart-interaction)
+
 [License](https://codyhouse.co/license)
+
 Self: Karen Sobtafo
